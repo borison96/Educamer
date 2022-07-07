@@ -11,6 +11,7 @@
 
     <modules>
         <module>profile</module>
+        <module>course</module>
     </modules>
 
     <properties>

@@ -9,4 +9,6 @@ public interface MessageService {
     public List<Message> getAllMessage();
 
     public void addMessage(Message message);
+
+    public Message getMessageById(Long id);
 }
