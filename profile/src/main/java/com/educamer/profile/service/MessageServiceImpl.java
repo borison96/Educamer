@@ -26,4 +26,9 @@ public class MessageServiceImpl implements MessageService {
     public void addMessage(Message message) {
         messageRepository.save(message);
     }
+
+    @Override
+    public Message getMessageById(Long id) {
+        return messageRepository.findById(id).get();
+    }
 }
